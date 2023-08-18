@@ -185,7 +185,7 @@ const Header = styled.div`
     font-weight: 700;
     line-height: normal;
     span {
-      background: linear-gradient(90deg, #de0000 0%, #6a0000 100%);
+      background: black;
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

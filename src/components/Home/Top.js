@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Banner from "./Banner";
-import ellipse35 from "../../assets/Ellipse 35.png";
-import ellipse34 from "../../assets/Ellipse 34.png";
 import blob1 from '../../assets/images/blobanimation.svg'
 import blob2 from '../../assets/images/blobanimation2.svg'
 import blob3 from '../../assets/images/blobanimation3.svg'
@@ -13,27 +11,23 @@ export default function Top() {
     <Container className="wrapper">
       <div className="comp1 flex a-center j-center flex-col" id="topArrow">
         <div className="title1 flex flex-col a-center">
-          <span className="title1-text">Imagine.</span>
-          <span className="title1-text">Innovate. Disrupt.</span>
+          <span className="title1-text">Dream .</span>
+          <span className="title1-text">money. Disrupt.</span>
         </div>
 
         <div className="text1">
-          We help organizations harness technology & innovation to shape their
-          visions, execute their digital transformation journeys, & reinvent
-          their business to create exceptional, sustainable value.
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         </div>
 
         <Link className="btn1 flex a-center j-center" to="/">
           <div className="btn-text1">See Plans</div>
         </Link>
 
-        <img className="ellipse35" src={ellipse35} alt="" />
-        <img className="ellipse34" src={ellipse34} alt="" />
       </div>
 
       <div className="comp2">
         <div className="title2">
-          Top Brands <span className="title2-span">Trust Us</span>
+          People Trusts
         </div>
 
         <div className="stats2">
@@ -58,56 +52,15 @@ export default function Top() {
             <div className="blob-text">92+</div>
             <div className="blob-title">Client Retention</div>
           </div>
-
-            {/* <div className="red-ring flex j-center a-center">
-              <div className="white-ring flex a-center j-center">
-                <div className="ring-text-left">100+</div>
-              </div>
-            </div>
-            <div className="stats-txt">Projects Launched</div> */}
           </div>
-
-          {/* <div className="flex flex-col a-center">
-            <div className="red-ring flex j-center a-center">
-              <div className="white-ring flex a-center j-center">
-                <div className="ring-text-left">20+</div>
-              </div>
-            </div>
-            <div className="stats-txt">Years of Experience</div>
-          </div> */}
-
-          {/* <div className="flex flex-col a-center">
-            <div className="red-ring flex j-center a-center">
-              <div className="white-ring flex a-center j-center">
-                <div className="ring-text-right">575+</div>
-              </div>
-            </div>
-            <div className="stats-txt">Dedicated Developers</div>
-          </div> */}
-
-          {/* <div className="flex flex-col a-center">
-            <div className="red-ring flex j-center a-center">
-              <div className="white-ring flex a-center j-center">
-                <div className="ring-text-right">92%</div>
-              </div>
-            </div>
-            <div className="stats-txt">Client Retention</div>
-          </div> */}
         </div>
-
-        {/* <div className="band4"></div> */}
-
         <div className="comp3 flex a-center j-center flex-col" id="bannerportfolio">
           <div className="title3" >
             Take a look at our <span className="span3">portfolio</span>
           </div>
 
           <Banner />
-
-          {/* <Link className="btn3 flex a-center j-center" to="/">
-            <div className="btn-text3">Check Out</div>
-          </Link> */}
-        </div>
+</div>
       </div>
     </Container>
   );
@@ -157,6 +110,7 @@ const Container = styled.div`
     margin-top: 37px;
   }
   .blob-text {
+    background-color:white;
     position: absolute;
     text-align: center;
     font-family: Poppins;
@@ -164,7 +118,7 @@ const Container = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: linear-gradient(90deg, #fff 0%, #fff 100%);
+    background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -220,7 +174,7 @@ const Container = styled.div`
     width: 220px;
     height: 75px;
     border-radius: 60px;
-    background: linear-gradient(270deg, #800 0%, #0e1118 100%);
+    background: linear-gradient(270deg, lightblue 0%, blue 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 246px;
   }
@@ -247,7 +201,7 @@ const Container = styled.div`
   }
 
   .title2-span {
-    background: linear-gradient(87deg, #bf0000 39.29%, #7d0000 100%);
+    background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -337,11 +291,12 @@ const Container = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 110px;
+    padding-bottom: 4rem;
+    margin-top: 6rem;
   }
 
   .span3 {
-    background: linear-gradient(87deg, #bf0000 39.29%, #7d0000 100%);
+    background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

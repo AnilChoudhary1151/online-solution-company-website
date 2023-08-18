@@ -26,7 +26,7 @@ export default Banner;
 
 const Container = styled.div`
   img {
-    width: 727px;
+    width: 80vw;
     height: 727px;
     margin: 0 auto;
     display: block;

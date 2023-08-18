@@ -1,15 +1,9 @@
 import React from 'react';
 import styled  from 'styled-components';
 import image1 from '../../assets/NodeJS logo.png';
-import image2 from '../../assets/saas.png';
 import image3 from '../../assets/Java.png' ;
 import image4 from '../../assets/Python.png' ;
 import image5 from '../../assets/React_JS Developer - Web_Mobile UI_UX Design & Development.png' ;
-import image6 from '../../assets/octagen.png' ;
-import image7 from '../../assets/Salesforce.png' ;
-import image8 from '../../assets/tensorflow.png' ;
-import image9 from '../../assets/jackines.png' ;
-import image10 from '../../assets/studio.png' ;
 import image11 from '../../assets/docker.jpg' ;
 import image12 from '../../assets/mdb.png' ;
 import image13 from '../../assets/aws.png' ;
@@ -26,10 +20,6 @@ const data=[
         imageUrl:image1,
     },
     {
-        id:"p2",
-        imageUrl:image2,
-    },
-    {
         id:"p3",
         imageUrl:image3,
     },
@@ -41,26 +31,6 @@ const data=[
         id:"p5",
         imageUrl:image5,
     },
-    {
-        id:"p6",
-        imageUrl:image6,
-    },
-    {
-        id:"p7",
-        imageUrl:image7,
-    },
-    {
-        id:"p8",
-        imageUrl:image8,
-    },
-    {
-      id:"p9",
-      imageUrl:image9,
-  },
-  {
-      id:"p10",
-      imageUrl:image10,
-  },
   {
       id:"p11",
       imageUrl:image11,
@@ -116,18 +86,6 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  /* @media (max-width: 1025px){
-    max-height: 800px;
-  }
-  @media (max-width: 770px){
-    max-height: 700px;
-  }
-  @media (max-width: 430px){
-    max-height: 500px;
-  }
-  @media (max-width: 390px){
-    max-height: 400px;
-  } */
 `;
 
 const Header = styled.div`
@@ -145,7 +103,7 @@ const Header = styled.div`
     line-height: normal;
 
     span {
-      background: linear-gradient(90deg, #de0000 0%, #6a0000 100%);
+      background:black;
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -229,7 +187,7 @@ const Header = styled.div`
 
 const CardsContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   gap:2vw;
   margin-bottom: 50px;

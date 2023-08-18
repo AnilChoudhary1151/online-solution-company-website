@@ -122,7 +122,7 @@ const Container = styled.div`
     width: 160px;
     height: 45px;
     border-radius: 30px;
-    background: #100E2D;
+    background: black;
   }
   
   .btn-text{
