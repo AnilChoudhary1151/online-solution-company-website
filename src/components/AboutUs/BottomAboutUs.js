@@ -4,8 +4,6 @@ import Rect41 from "../../assets/ourprocess1.png";
 import Rect42 from "../../assets/ourprocess2.png";
 import Rect43 from "../../assets/ourprocess3.png";
 import Rect44 from "../../assets/ourprocess4.png";
-
-import eLeft from "../../assets/Ellipse 37.png";
 import BottomAboutUsCard from "./BottomAboutUsCard";
 
 const data = [

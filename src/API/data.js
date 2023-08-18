@@ -5,7 +5,6 @@ import Ellipse15 from '../assets/Ellipse 13.png'
 import Ellipse16 from '../assets/Ellipse 13.png'
 import Ellipse17 from '../assets/Ellipse 13.png'
 import Ellipse18 from '../assets/Ellipse 13.png'
-import Ellipse19 from '../assets/Ellipse 13.png'
 
 export const CaseStudydata = [
   {

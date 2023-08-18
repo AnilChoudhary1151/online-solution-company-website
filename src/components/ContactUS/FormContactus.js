@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const FormContactus = () => {
 
-  const emailAddress = 'contact@thecodewick.com';
+  const emailAddress = 'anilkhokhar1151@gmail.com';
   const subject = 'Query';
 
   const [name, setName] = useState('');
@@ -24,7 +24,7 @@ const FormContactus = () => {
           value={name} onChange={(e) => setName(e.target.value)}
           type="text"
           id="name"
-          placeholder="Type something if you want..."
+          placeholder="name..."
           required
         /> 
 
@@ -33,7 +33,7 @@ const FormContactus = () => {
           value={email} onChange={(e) => setEmail(e.target.value)}
           type="email"
           id="email"
-          placeholder="Type something if you want..."
+          placeholder="enail..."
           required
         />
 
@@ -42,7 +42,7 @@ const FormContactus = () => {
           value={message} onChange={(e) => setMessage(e.target.value)}
           id="message"
           rows="4"
-          placeholder="Type something if you want..."
+          placeholder="message..."
           required
         />
 

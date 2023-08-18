@@ -162,33 +162,4 @@ const CardsContainer = styled.div`
 `;
 
 
-const Qotation = styled.div`
-  display: flex;
-  flex-direction: row;
-  @media (max-width: 1025px){
-  img{
-    width: 50px;
-    height: 50px;
-  }
-}
-@media (max-width: 770px){
-  img{
-    width: 45px;
-    height: 45px;
-  }
-
-}
-@media (max-width: 430px){
-  img{
-    width: 30px;
-    height: 30px;
-  }
-}
-@media (max-width: 390px){
-  img{
-    width: 25px;
-    height: 25px;
-  }
-}
-`;
 

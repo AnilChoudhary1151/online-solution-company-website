@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import HeaderContactUs from "./HeaderContactUs";
 import FormContactus from "./FormContactus.js";
-import imag40 from "../../assets/image 40.png";
+import imag40 from "../../assets/testimage.jpeg";
 
 const Contact = () => {
   return (
@@ -12,11 +12,6 @@ const Contact = () => {
         <FormContactus />
         <span>
           <img src={imag40} alt="img"/>
-          <div className="cirlceContactusmain" >
-          <div className="cirlceContactus"></div>
-          <div className="cirlceContactus"></div>
-          <div className="cirlceContactus"></div>
-          </div>
         </span>
       </div>
     </Container>
