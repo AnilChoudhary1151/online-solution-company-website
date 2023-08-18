@@ -62,12 +62,15 @@ const Container = styled.div`
   margin: 0;
   padding: 0;
   width: 100%;
-  padding-top: 59px;
+  padding: 2rem 0.5rem 2rem 0.5rem;
   display: flex;
+  background-color:lightblue ;
 
   .container{
     /* max-width: 1440px; */
     display: none;
+    width: 100wv;
+   
   }
   .flex{
     display: flex;

@@ -24,7 +24,7 @@ function Footer() {
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
         </p>
         <EmailInput>
-          <input type="text" name="input" placeholder="Subscribe to our newsletter" />
+          <input type="text" name="input" placeholder="Connect to us" />
           <Button onClick={hanldeContact}>{arrow}</Button>
         </EmailInput>
       </LogoContainer>
@@ -41,15 +41,6 @@ function Footer() {
         <Link to="/">FAQ</Link>
         <Link to="/">Careers</Link>
         <Link to="/">Newsletter</Link>
-      </Section>
-      <Section>
-        <p>Features</p>
-        <Link to="/">Web Development</Link>
-        <Link to="/">App Development</Link>
-        <Link to="/">Devops Development</Link>
-        <Link to="/">E-Commerce Solutions</Link>
-        <Link to="/">Digital Transfomation</Link>
-        <Link to="/">Cloud Computing</Link>
       </Section>
     </Container>
   );
@@ -179,7 +170,6 @@ const EmailInput = styled.div`
     height: 58px; 
     flex-shrink: 0;
     background: white;
-    border-radius: 30px; 
     border: none;
     outline: none;
     padding-left: 30px; 
@@ -245,7 +235,6 @@ const EmailInput = styled.div`
 const Button = styled.button`
   position: absolute;
   left: 350px; 
-  border-radius: 100%;
   width: 50px; 
   height: 50px; 
   background-color: black;

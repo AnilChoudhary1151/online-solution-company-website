@@ -37,19 +37,19 @@ export default function Top() {
 
           <div className="flex a-center j-center">
             <img className="blob-ring" src={blob1} alt="" />
-            <div className="blob-text">100+</div>
+            <div className="blob-text">20+</div>
             <div className="blob-title">Projects Launched</div>
           </div>
 
           <div className="flex a-center j-center">
             <img className="blob-ring" src={blob2} alt="" />
-            <div className="blob-text">20+</div>
+            <div className="blob-text">2+</div>
             <div className="blob-title">Years of Experience</div>
           </div>
 
           <div className="flex a-center j-center">
             <img className="blob-ring" src={blob3} alt="" />
-            <div className="blob-text">92+</div>
+            <div className="blob-text">98+</div>
             <div className="blob-title">Client Retention</div>
           </div>
           </div>
