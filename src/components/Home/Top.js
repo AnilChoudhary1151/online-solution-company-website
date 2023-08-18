@@ -19,7 +19,7 @@ export default function Top() {
           dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         </div>
 
-        <Link className="btn1 flex a-center j-center" to="/">
+        <Link className="btn1 flex a-center j-center" to="/services">
           <div className="btn-text1">See Plans</div>
         </Link>
 

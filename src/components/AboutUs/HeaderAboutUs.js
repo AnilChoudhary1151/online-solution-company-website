@@ -1,16 +1,19 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const HeaderAboutUs = () => {
+const navigate =useNavigate();
+  const handleservices = () => {
+    navigate("/services")
+  }
   return (
     <Container>
       <h1>About Us</h1>
       <p>
-        We help organizations harness technology & innovation to shape their
-        visions, execute their digital transformation journeys, & reinvent their
-        business to create exceptional, sustainable value.
+        ipsum dolor sit amet, consectetur adipisicing elit. elit. Quisquamipsum dolor sit amet, consectetur adipisicing elit. Quisquamipsum dolor sit amet, consectetur adipisicing elit. Quisquamipsum dolor sit amet, consectetur adipisicing elit. Quisquam
       </p>
-      <button>See Plans</button>
+      <button onClick={handleservices}>See Plans</button>
     </Container>
   );
 };
@@ -49,7 +52,7 @@ const Container = styled.div`
     flex-shrink: 0;
     margin-top: 40px;
     border-radius: 60px;
-    background: linear-gradient(270deg, #800 0%, #0e1118 100%);
+    background: linear-gradient(270deg, lightblue 0%, blue 100%);
     border: none;
     color: white;
     text-align: center;
