@@ -65,9 +65,6 @@ const MasterInTechnology = () => {
         <div>
           Master In <span>Trending Technology</span>
         </div>
-        <p>
-          Outsource software development with Codewick leveraging an array of IT technologies for all company sizes. The right technology stack can significantly reduce the total cost of ownership & scale up your business.
-        </p>
       </Header>
       <CardsContainer>
         {data.map((item) => (

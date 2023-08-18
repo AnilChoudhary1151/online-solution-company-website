@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import AboutUs from './pages/AboutUs';
 import CaseStudy from './pages/CaseStudy';
-import Blog from './pages/Blog';
 import ContactUs from './pages/ContactUs';
 import Admin from './pages/Admin';
 import useAuthentication from './useAuthentication';
@@ -28,7 +27,6 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/casestudy" element={<CaseStudy />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<ContactUs />} />
 
           {/* Protected admin routes */}

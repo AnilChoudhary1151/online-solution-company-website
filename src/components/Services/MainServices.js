@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
 import ServicesCard from "./MainServicescard";
-import quo from '../../assets/quo.png';
 import {MainServicesdata} from '../../API/data';
 
 
@@ -10,15 +9,11 @@ const MainServices = () => {
     <Container>
       <Header>
         <div className="header">
-          What <span> we do</span> for our customers
+          Our Services
         </div>
-        <Qotation>
-          <span><img src={quo} alt="img"/></span>
-        <p>
-        We are a bunch of tech geeks who are trying to change the way how technology is implemented with the use of web3, cloud, automation, & blockchain, We constantly try to outdo ourselves & deliver the best outcomes for you.
-        </p>
-        <span><img src={quo} alt="img"/></span>
-        </Qotation>
+          
+
+        
       </Header>
       <CardsContainer>
         {MainServicesdata.map((item) => (

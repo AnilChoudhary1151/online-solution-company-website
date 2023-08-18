@@ -5,7 +5,7 @@ const useAuthentication = () => {
 
   useEffect(() => {
     // only for test pourpose for prduction of website use jwt,api or other method
-        setIsAuthenticated(false)
+        setIsAuthenticated(true)
   }, []);
 
   return isAuthenticated;

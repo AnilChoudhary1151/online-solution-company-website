@@ -1,11 +1,11 @@
 import image from "../assets/testimage.jpeg";
 import Ellipse13 from '../assets/Ellipse 13.png'
-import Ellipse14 from '../assets/Ellipse 14.png'
-import Ellipse15 from '../assets/Ellipse 16.png'
-import Ellipse16 from '../assets/Ellipse 16.png'
-import Ellipse17 from '../assets/Ellipse 17.png'
-import Ellipse18 from '../assets/Ellipse 18.png'
-import Ellipse19 from '../assets/Ellipse 19.png'
+import Ellipse14 from '../assets/Ellipse 13.png'
+import Ellipse15 from '../assets/Ellipse 13.png'
+import Ellipse16 from '../assets/Ellipse 13.png'
+import Ellipse17 from '../assets/Ellipse 13.png'
+import Ellipse18 from '../assets/Ellipse 13.png'
+import Ellipse19 from '../assets/Ellipse 13.png'
 
 export const CaseStudydata = [
   {
@@ -26,6 +26,14 @@ export const CaseStudydata = [
   },
   {
     id: 3,
+    date: "Lorem ipsum - 19 Aug 2023",
+    title: "A Relentless Pursuit of Perfection In Website Design",
+    desc: "I began to notice that there was a sharp contrast between well made....",
+    imgUrl: image,
+    keywords: ["Design", "Design", "Research", "Research", "Research"],
+  },
+  {
+    id: 4,
     date: "Lorem ipsum - 19 Aug 2023",
     title: "A Relentless Pursuit of Perfection In Website Design",
     desc: "I began to notice that there was a sharp contrast between well made....",
@@ -148,11 +156,5 @@ export const MainServicesdata =[
     imageUrl: Ellipse18,
     name: "Cloud Computing",
     para:"We are committed to providing our customers with the best possible cloud computing experience, and we are always working to improve our services.",
-  },
-  {
-    id: "p7",
-    imageUrl: Ellipse19,
-    name: "Database Management",
-    para:"We can help you administer your database on a daily basis, including monitoring performance, troubleshooting problems, and backing up the data."
   },
 ] 

@@ -25,7 +25,7 @@ const TeamMembers = () => {
     <Container id="ourexpertieshome">
       <Header>
         <div>
-          Industries we are <span>working</span> in
+          Projects we are <span>working</span>
         </div>
       </Header>
       <KeywordsContainer>
