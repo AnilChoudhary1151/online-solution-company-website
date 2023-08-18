@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
-import { TeamMembersKeyword} from "../../API/data";
+import { TeamMembersKeyword,TeamMembersCardKeywords} from "../../API/data";
 import { useNavigate } from "react-router-dom";
-// import TeamMembersCard from "./TeamMembersCard";
+import TeamMembersCard from "./TeamMembersCard";
 
 const TeamMembers = () => {
   const navigate = useNavigate();
@@ -12,10 +12,10 @@ const TeamMembers = () => {
     setSelectedKeyword(keyword);
   };
 
-  // const filteredData =
-  //   selectedKeyword === "All"
-  //     ? TeamMembersCardKeywords
-  //     : TeamMembersCardKeywords.filter((item) => item.keyword === selectedKeyword);
+  const filteredData =
+    selectedKeyword === "All"
+      ? TeamMembersCardKeywords
+      : TeamMembersCardKeywords.filter((item) => item.keyword === selectedKeyword);
 
   const handleclicktonavigate = () => {
     navigate("/contact");
@@ -39,7 +39,7 @@ const TeamMembers = () => {
           </KeywordButton>
         ))}
       </KeywordsContainer>
-      {/* <TeamMembersCardContainer>
+      <TeamMembersCardContainer>
         {filteredData.map((item) => (
           <TeamMembersCard
             key={item.keyword}
@@ -48,7 +48,7 @@ const TeamMembers = () => {
             position={item.keyword}
           />
         ))}
-      </TeamMembersCardContainer> */}
+      </TeamMembersCardContainer>
 
       <ButtonContact id="contacthome">
         <h2>Ready to get started ?</h2>
@@ -308,16 +308,16 @@ const KeywordButton = styled.div`
 `;
 
 
-// const TeamMembersCardContainer = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   flex-wrap: wrap;
-//   gap:2vw;
-//   max-width: 100vw;
-//   margin-top: 3rem;
-//   justify-content: center;
-//   cursor: pointer;
-// `;
+const TeamMembersCardContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:2vw;
+  max-width: 100vw;
+  margin-top: 3rem;
+  justify-content: center;
+  cursor: pointer;
+`;
 
 const ButtonContact = styled.div`
   width: 80vw;

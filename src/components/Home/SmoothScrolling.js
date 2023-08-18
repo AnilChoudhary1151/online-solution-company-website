@@ -8,13 +8,7 @@ const SmoothScrolling = () => {
   return (
     <Container2>
       <Container>
-      <Link to="topArrow" smooth={true} offset={50} duration={500}>{Arrow}</Link>
-      <Link to="bannerportfolio" smooth={true} offset={50} duration={500}>Portfolio</Link>
-      <Link  to='serviceshome'smooth={true} offset={50} duration={500}>Services</Link >
-      <Link  to='masterInTechnologyhome' smooth={true} offset={50} duration={500}>Technology Used</Link >
-      <Link  to='ourexpertieshome' smooth={true} offset={50} duration={500}>Our expertices</Link >
-      <Link  to='contacthome' smooth={true} offset={50} duration={500}>Contact</Link >
-
+      <Link to="topArrownav" smooth={true} offset={50} duration={500}>{Arrow}</Link>
     </Container>
     </Container2>
   )
@@ -24,7 +18,7 @@ export default SmoothScrolling;
 
 const Container2 =Styled.div`
 display:flex;
-justify-content:center;
+justify-content:right;
 `;
 
 const Container =Styled.div`
@@ -32,13 +26,11 @@ Display:flex;
 justify-content:space-around;
 align-items:center;
 background-color:black;
+width:4rem;
 color:white;
-height:10vh;
-width:45vw;
 margin:0 auto;
-border-radius:50px;
 font-size:1.2vw;
-opacity: 0.9;
+opacity: 0.7;
 cursor:pointer;
 z-index:9999;
 Link  {

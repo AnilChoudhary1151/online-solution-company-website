@@ -1,12 +1,10 @@
-// Assuming the root font size is 16px (you can adjust this according to your project settings)
-
 import React from "react";
 import styled from 'styled-components';
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "../../assets/images/sizar-fashion.png";
-import img2 from "../../assets/images/sizar.png";
-import img3 from "../../assets/images/skybags.png";
+import img1 from "../../assets/images/img_1.png";
+import img2 from "../../assets/images/img_2.png";
+import img3 from "../../assets/images/img_3.png";
 
 const Banner = () => {
   const start = [img1, img2, img3];

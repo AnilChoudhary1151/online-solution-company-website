@@ -11,6 +11,7 @@ import ContactUs from './pages/ContactUs';
 import Admin from './pages/Admin';
 import useAuthentication from './useAuthentication';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import SmoothScrolling from './components/Home/SmoothScrolling';
 
 const App = () => {
   const isAuthenticated = useAuthentication();
@@ -20,6 +21,7 @@ const App = () => {
     <div>
       <Router>
         <Navbar />
+        <SmoothScrolling/>
           <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />

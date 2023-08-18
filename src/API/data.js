@@ -1,4 +1,4 @@
-import image from "../assets/Rectangle 48.png";
+import image from "../assets/testimage.jpeg";
 import Ellipse13 from '../assets/Ellipse 13.png'
 import Ellipse14 from '../assets/Ellipse 14.png'
 import Ellipse15 from '../assets/Ellipse 16.png'

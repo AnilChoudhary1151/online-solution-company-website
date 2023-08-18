@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../assets/image 3.png';
-import { Link } from 'react-router-dom';
+import logo from '../assets/Logo.png';
+import { Link, useNavigate } from 'react-router-dom';
 
 const arrow = (
   <svg xmlns="http://www.w3.org/2000/svg" height="39" viewBox="0 -960 960 960" width="39">
@@ -10,6 +10,10 @@ const arrow = (
 );
 
 function Footer() {
+  const navigate =useNavigate();
+  const hanldeContact = () => {
+    navigate("/contact")
+  }
   return (
     <Container>
       <LogoContainer>
@@ -17,12 +21,11 @@ function Footer() {
           <img src={logo} alt="logo" />
         </LogoWrapper>
         <p>
-          We help organizations harness technology & innovation to shape their visions, execute their digital
-          transformation journeys, & reinvent their business to create exceptional, sustainable value.
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
         </p>
         <EmailInput>
           <input type="text" name="input" placeholder="Subscribe to our newsletter" />
-          <Button>{arrow}</Button>
+          <Button onClick={hanldeContact}>{arrow}</Button>
         </EmailInput>
       </LogoContainer>
       <Section>

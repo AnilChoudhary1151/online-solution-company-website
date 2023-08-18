@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { styled } from 'styled-components'
-import wicklogo from '../assets/codewick-logo.png'
+import wicklogo from '../assets/Logo.png'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const[show, setShow] = useState(false)
 
   return (
-    <Container>
+    <Container id='topArrownav'>
       <div className="container flex a-center j-between">
       <div onClick={()=> setShow(!show)} className="m-logo">
             { show ? 
@@ -38,16 +38,14 @@ export default function Navbar() {
 
 
 
-        <div className="logo box">
+        <div className="logo box" >
         <Link to='/' className='logo'><img src={wicklogo} alt="" className="logo" /></Link>
         </div>
 
       <div className="links flex j-between">
-        <Link className='link' to='/'>Home</Link>
         <Link className='link' to='/services'>Services</Link>
         <Link className='link' to='/about'>About Us</Link>
         <Link className='link' to='/casestudy'>Case Study</Link>
-        <Link className='link' to='/blog'>Blog</Link>
       </div>
 
       <Link className='btn flex a-center j-center' to='contact'>

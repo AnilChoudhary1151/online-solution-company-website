@@ -12,7 +12,6 @@ const Home = () => {
       <Services2/>
       <MasterInTechnology/>
       <TeamMembers/>
-      <SmoothScrolling/>
     </div>
   )
 }
